@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyrinha"
+version = "0.1.0"
+description = "My try on Rinha de Backend"
+authors = ["André Carvalho <alac1984@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+sqlmodel = "^0.0.8"
+python-dotenv = "^1.0.0"
+asyncpg = "^0.28.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pynvim = "^0.4.3"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
